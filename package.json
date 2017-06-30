@@ -1,28 +1,19 @@
 {
-  "name": "simple-oauth2",
+  "name": "sf-extension-simple-oauth2",
   "version": "1.3.0",
-  "description": "Node.js client for OAuth2",
-  "author": "Andrea Reginato <andrea.reginato@gmail.com>",
+  "description": "Smartface client for OAuth2",
+  "author": "Alper Ozisik <alper.ozisik@smartface.io>",
   "contributors": [
+    "Andrea Reginato <andrea.reginato@gmail.com>",
     "Jonathan Samines <jn.samines@gmail.com>"
   ],
-  "homepage": "https://github.com/lelylan/simple-oauth2",
+  "homepage": "https://github.com/alperozisik/sf-extension-simple-oauth2",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lelylan/simple-oauth2"
+    "url": "https://github.com/alperozisik/sf-extension-simple-oauth2"
   },
-  "engine": {
-    "node": ">=4.0"
-  },
-  "scripts": {
-    "pretest": "npm run lint",
-    "test": "mocha ",
-    "lint": "eslint .",
-    "fix": "eslint . --fix",
-    "test-watch": "mocha --watch --reporter=spec",
-    "docs-gen": "doctoc README.md --github --no-title"
-  },
+  "scripts": {},
   "dependencies": {
     "bluebird": "^3.5.0",
     "date-fns": "^1.3.0",
@@ -30,6 +21,5 @@
     "joi": "^10.4.1",
     "json-stringify-safe": "^5.0.1"
   },
-  "devDependencies": {},
   "license": "Apache-2.0"
 }
