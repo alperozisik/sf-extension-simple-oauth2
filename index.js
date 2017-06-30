@@ -1,6 +1,6 @@
 'use strict';
 
-const joi = require('joi');
+const joi = require('./lib/joi');
 const authCodeModule = require('./lib/client/auth-code');
 const passwordModule = require('./lib/client/password');
 const accessTokenModule = require('./lib/client/access-token');
