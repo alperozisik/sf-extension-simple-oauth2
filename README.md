@@ -2,7 +2,7 @@
 
 This module is a forked version of [simple-oauth2](https://github.com/lelylan/simple-oauth2) modified to be used in Smartface enviornment.
 
-For general usage plase refer to the [original REAME file](./ORIGINAL_README.md) first.
+For general usage plase refer to the [original README file](./ORIGINAL_README.md) first.
 This file is remain untouched. Usage differences for Smartface are explained in this document.
 
 ## Install
